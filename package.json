@@ -1,0 +1,26 @@
+{
+  "name": "genrefind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "genrefind": "./bin/index.js"
+  },
+  "author": "Mikas Tsodikov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "lastfm": "^0.9.3",
+    "nanospinner": "^1.0.0",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
